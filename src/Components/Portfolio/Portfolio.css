@@ -1,0 +1,22 @@
+.card-img-top {
+    width: 482px;
+    height: 350px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .card {
+    background-color: #f8f9fa; /* Set your preferred background color */
+    border: 1px solid #dee2e6; /* Add a border for separation */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  .card-body {
+    padding: 1.25rem; /* Add padding for the card body */
+  }
+ 
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
